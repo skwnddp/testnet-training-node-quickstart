@@ -8,6 +8,7 @@ from trl import SFTTrainer, SFTConfig
 
 from dataset import SFTDataCollator, SFTDataset
 from utils.constants import model2template
+from dataset_v2 import SFTDataCollator, SFTDataset, VFDDateset, Rpsnizer
 
 
 @dataclass
